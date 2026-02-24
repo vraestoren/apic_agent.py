@@ -7,5 +7,5 @@ from apic_agent import ApicAgent
 
 apic_agent = ApicAgent(user_agent="")
 ua_info = apic_agent.get_user_agent_info()
-print(user_agent_info)
+print(ua_info)
 ```
